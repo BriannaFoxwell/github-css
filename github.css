@@ -1,0 +1,32 @@
+/* 
+this is a because of a joke about making github slowly rotate and get long
+so now it does! 
+enjoy??
+*/
+
+body {
+  animation-name: strech;
+  animation-duration: 1000000000ms;
+  animation-iteration-count: infinite;
+}
+html {
+  animation-name: spin;
+  animation-duration: 15000000ms;
+  animation-iteration-count: infinite;
+}
+@keyframes strech {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(300);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
